@@ -10,4 +10,7 @@ import java.util.List;
 public interface FamilyUnitService {
     public void save (FamilyUnit familyUnit);
     List<FamilyUnit> findAll();
+    public void delete (Long familyUnit_id);
+
+    public void update (Long familyUnit_id, FamilyUnit updatedFamilyUnit);
 }

@@ -10,4 +10,8 @@ import java.util.List;
 public interface PersonaService {
     public void save (Persona persona);
     List<Persona> findAll();
+
+    public void delete (Long persona_id);
+
+    public void update (Long persona_id, Persona updatedPersona);
 }
